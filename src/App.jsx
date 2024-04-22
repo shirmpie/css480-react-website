@@ -1,19 +1,25 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
-import Food from './Food.jsx'
-import Button from './Button.jsx'
-import Card from './Card.jsx'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+
+import { Home } from './pages/home.jsx'
+import { ThingsToRead } from './pages/thingsToRead.jsx'
+import { Layout } from './Layout.jsx'
+
+
+
 function App() {
     return(
-      <>
-        <Card/>
-        <Button/>
-        <Food/>
-        <Food/>
-        <Footer/>
+      
+        <Router> 
+          <Routes>
+            <Route element={<Layout/>}>
+              <Route path="/" element={<Home/>}/>
+              <Route path="/things_to_read" element={<ThingsToRead/>}/>
+            </Route>
+          </Routes>
+        </Router>
         
-      </>
-    );
+      
+    )
 }
 
 export default App

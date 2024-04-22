@@ -1,4 +1,4 @@
-import profilePic from './assets/profile.jpg'
+import profilePic from '../assets/profile.jpg'
 function Card(){
     return(
         <div className="card">
