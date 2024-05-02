@@ -13,6 +13,32 @@
   -moz-osx-font-smoothing: grayscale;
 }*/
 
+.navbar {
+  padding: 20px;
+  color: #747bff;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+
+}
+.navbar .links {
+  margin-left: auto;
+
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 20px;
+
+}
+
+.navbar a:hover {
+  color: red;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
