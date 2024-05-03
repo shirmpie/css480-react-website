@@ -14,50 +14,80 @@
 }*/
 
 .navbar {
-  padding: 20px;
-  color: #747bff;
+  background-color: #d8e6f1;
+  color: #1b143e;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 0 1rem;
+  
+  
+}
+
+.site-title{
+  font-size: 30px;
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   display: flex;
   align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  border-bottom: 1px solid white;
-
+  justify-content: center;
+  
 }
-.navbar .links {
-  margin-left: auto;
 
+.navbar li {
+  color: inherit;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar a {
+  color: inherit;
   margin-left: 16px;
   text-decoration: none;
-  padding: 20px;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
 .navbar a:hover {
-  color: red;
+  color: #0e159a;
+}
+
+
+
+.navbar li:hover {
+  background-color:hsl(0, 0%, 100%);
+  
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #3137aa;
   text-decoration: inherit;
 }
-a:hover {
-  color: #535bf2;
-}
+
+
 
 body {
   margin: 0;
-
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  
 }
 
 h1 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 3.2em;
   line-height: 1.1;
   text-align:center
@@ -65,6 +95,7 @@ h1 {
 }
 
 h2 {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -90,30 +121,22 @@ h2 {
 .card .card-title{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  color: hsl(155, 56%, 69%);
+  color: #004e4e;
 }
 
 .card .card-subtitle{
   font-family: Arial, Helvetica, sans-serif;
-  color: hsl(223, 28%, 40%);
+  color: #313e5b;
 }
 
 .card .card-text{
   font-family: Arial, Helvetica, sans-serif;
-  color: hsl(223, 28%, 40%);
+  color: #313e5b;
+}
+
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #313e5b;
 }
 
 
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #3284ff;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #ffffff;
-  }
-}

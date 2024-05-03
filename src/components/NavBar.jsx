@@ -2,19 +2,17 @@
 import { Link } from "react-router-dom"
 export function Navbar(){
     return(
-        <>
-            <Link to="/"style={{
-                color: "white",
-                margin: "40px",
-                backgroundColor: "grey",
-                borderRadius: "8px"
-            }}>Home</Link>
-            <Link to="/things_to_read" style={{
-                color: "white",
-                margin: "40px",
-                backgroundColor: "grey",
-                borderRadius: "8px"
-            }}> Things to Read </Link>
-        </>
+        <nav className="navbar">
+            <a href="/#/" className="site-title">Shirlyn's Site</a>
+            <ul>
+                <li className="active">
+                <Link to="/">Home</Link>
+                </li>
+                <li className="active">
+                <Link to="/things_to_read" > Things to Read </Link>
+                </li>
+            </ul>
+            
+            </nav>
     )
 }

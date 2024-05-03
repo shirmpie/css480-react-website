@@ -11,8 +11,7 @@ function App() {
         
         <Router> 
           <Routes>
-            <Route element={<Layout/>}>
-              
+            <Route element={<Layout/>}>    
               <Route path="/" element={<Home/>}/>
               <Route path="/things_to_read" element={<ThingsToRead/>}/>
             </Route>

@@ -9,7 +9,7 @@ function Button(){
             fontSize: "1em",
             fontWeight: "500",
             fontFamily: "Arial, Helvetica, sans-serif",
-            backgroundColor: "hsl(185, 52%, 55%)",
+            backgroundColor: "#6CCAEA",
             cursor: "pointer",
             
           
