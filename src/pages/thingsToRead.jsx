@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom"
-export function ThingsToRead(){
+export function ThingsToRead() {
     return (
         <>
-            
+
             <h1>Things to Read:</h1>
             <ul>
-                
+
                 <li><Link to="https://theuselessweb.com/">https://theuselessweb.com/</Link></li>
                 <li><Link to="https://sliding.toys/mystic-square/8-puzzle/daily/">https://sliding.toys/mystic-square/8-puzzle/daily/</Link></li>
                 <li><Link to="https://puginarug.com/">https://puginarug.com/</Link></li>
@@ -16,8 +16,8 @@ export function ThingsToRead(){
                 <li><Link to="https://binarypiano.com/">https://binarypiano.com/</Link></li>
                 <li><Link to="https://longdogechallenge.com/">https://longdogechallenge.com/</Link></li>
                 <li><Link to="https://cursoreffects.com/">https://cursoreffects.com/</Link></li>
-                
-                
+
+
             </ul>
         </>
     )
