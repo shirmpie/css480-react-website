@@ -4,7 +4,11 @@ export function Navbar(){
     return(
         <div>
         <nav className="navbar">
-            <a href="/#/" className="site-title">Shirlyn's Site</a>
+            <a href="/#/" className="site-title">Shirlyn's Site 
+                
+            </a>
+            
+            
             <ul>
                 <li className="active">
                 <Link to="/">Home</Link>

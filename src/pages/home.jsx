@@ -11,7 +11,7 @@ export function Home(){
             <Card/>
             <Button/>
             <ListGroup/>
-            <Footer/>
+            
             
         </>
     )
